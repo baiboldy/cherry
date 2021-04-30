@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#!" class="brand-logo"><img src="assets/1.png" height="70" width="70" alt=""></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="sass.html">Домой</a></li>
+                        <li><a class="modal-trigger" href="#modal2">Про нас</a></li>
+                        <li><a class="modal-trigger" href="#modal1">Поддержка</a></li>
+                        <li><a href="mobile.html">Продукты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="assets/2.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="assets/3.jpg"></a>
+                <a href="#name"><span class="white-text name">John Doe</span></a>
+                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="sass.html">Домой</a></li>
+        <li><a class="modal-trigger" href="#modal2">Про нас</a></li>
+        <li><a class="modal-trigger" href="#modal1">Поддержка</a></li>
+        <li><a href="mobile.html">Продукты</a></li>
+    </ul>
+    <div class="main-wrapper">
+        <div class="slider-holder">
+            <div class="carousel carousel-slider">
+                <div class="carousel-fixed-item center">
+                    <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                </div>
+                <a href="#one!" class="carousel-item cc1"></a>
+                <a href="#two!" class="carousel-item cc2"></a>
+                <a href="#three!" class="carousel-item cc3"></a>
+                <a href="#three!" class="carousel-item cc4"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col xl3 l4 m6 s12 center-align">
+                <img src="assets/1.png" width="100" height="100" alt="">
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit ipsam magni corrupti esse
+                    dolore, voluptates, nisi illum tempore quas debitis quae aspernatur minus neque expedita!</p>
+            </div>
+            <div class="col xl3 l4 m6 s12 center-align">
+                <img src="assets/1.png" width="100" height="100" alt="">
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit ipsam magni corrupti esse
+                    dolore, voluptates, nisi illum tempore quas debitis quae aspernatur minus neque expedita!</p>
+            </div>
+            <div class="col xl3 l4 m6 s12 center-align">
+                <img src="assets/1.png" width="100" height="100" alt="">
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit ipsam magni corrupti esse
+                    dolore, voluptates, nisi illum tempore quas debitis quae aspernatur minus neque expedita!</p>
+            </div>
+            <div class="col xl3 l4 m6 s12 center-align">
+                <img src="assets/1.png" width="100" height="100" alt="">
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit ipsam magni corrupti esse
+                    dolore, voluptates, nisi illum tempore quas debitis quae aspernatur minus neque expedita!</p>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/6.jpg" alt="">
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h1 class="header">Рынок Самал</h1>
+            <p class="grey-text text-darken-3 lighten-3">
+                Рынок Самал - оптово-розничный рынок, который продает все продукты для магазинов и для людей. Вы сможете
+                купить все нужные вещи для свадьбы и других мероприятий.
+            </p>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/7.jpg" alt="">
+        </div>
+    </div>
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <div class="row">
+                <form action="" class="col s12">
+                    <div class="row">
+
+                        <div class="input-field col xl3 l6 s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input type="text" id="last_name" class="validate" placeholder="Личные данные">
+                            <label for="last_name">Фамилия</label>
+                        </div>
+                        <div class="input-field col xl3 l6 s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input type="text" id="first_name" class="validate">
+                            <label for="first_name">Имя</label>
+                        </div>
+                        <div class="input-field col xl3 l6 s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input type="text" id="middle_name" class="validate">
+                            <label for="middle_name">Отчество</label>
+                        </div>
+
+                        <div class="input-field col xl3 l6 s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input type="date" id="birth" class="validate">
+                            <label for="birth">Дата рождения</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock</i>
+                            <input class="password" type="password" id="password">
+                            <label for="password">Пароль</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mail</i>
+                            <input class="validate" type="email" id="email">
+                            <label for="email">Почта</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Зарегистрироваться</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Войти</a>
+            <!-- <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a> -->
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <table class="highlight centered">
+                <thead>
+                    <tr>
+                        <th>Наименование</th>
+                        <th>Фамилия</th>
+                        <th>Цена</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Alvin</td>
+                        <td>Eclair</td>
+                        <td>$0.87</td>
+                    </tr>
+                    <tr>
+                        <td>Alan</td>
+                        <td>Jellybean</td>
+                        <td>$3.76</td>
+                    </tr>
+                    <tr>
+                        <td>Jonathan</td>
+                        <td>Lollipop</td>
+                        <td>$7.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col m6 s12">
+                <div class="card hoverable small">
+                    <div class="card-image">
+                        <img src="assets/2.jpg" alt="">
+                        <span class="card-title">Card title</span>
+                    </div>
+                    <div class="card-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae, cum voluptas alias
+                        veniam nesciunt nam laboriosam tempore voluptates dolores?
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Ling blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col m6 s12">
+                <div class="card hoverable small">
+                    <div class="card-image">
+                        <img src="assets/3.jpg" alt="">
+                        <span class="card-title">Card title</span>
+                    </div>
+                    <div class="card-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae, cum voluptas alias
+                        veniam nesciunt nam laboriosam tempore voluptates dolores?
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Ling blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col m6 s12">
+                <div class="card hoverable small">
+                    <div class="card-image">
+                        <img src="assets/4.jpg" alt="">
+                        <span class="card-title">Card title</span>
+                    </div>
+                    <div class="card-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae, cum voluptas alias
+                        veniam nesciunt nam laboriosam tempore voluptates dolores?
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Ling blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col m6 s12">
+                <div class="card hoverable small">
+                    <div class="card-image">
+                        <img src="assets/5.jpg" alt="">
+                        <span class="card-title">Card title</span>
+                    </div>
+                    <div class="card-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae, cum voluptas alias
+                        veniam nesciunt nam laboriosam tempore voluptates dolores?
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Ling blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l3 m6 s12">
+                    <h5 class="white-text">
+                        Footer content
+                    </h5>
+                    <p class="grey-text text-lighten-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sed ipsum, distinctio
+                        doloribus modi consectetur deserunt eaque unde culpa reprehenderit, in error quaerat quos
+                        aliquid?
+                    </p>
+                </div>
+                <div class="col l3 m6 s12">
+                    <h5 class="white-text">
+                        Footer content
+                    </h5>
+                    <p class="grey-text text-lighten-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sed ipsum, distinctio
+                        doloribus modi consectetur deserunt eaque unde culpa reprehenderit, in error quaerat quos
+                        aliquid?
+                    </p>
+                </div>
+                <div class="col l3 m6 s12">
+                    <h5 class="white-text">
+                        Footer content
+                    </h5>
+                    <p class="grey-text text-lighten-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sed ipsum, distinctio
+                        doloribus modi consectetur deserunt eaque unde culpa reprehenderit, in error quaerat quos
+                        aliquid?
+                    </p>
+                </div>
+                <div class="col l3 m6 s12">
+                    <h5 class="white-text">
+                        Footer content
+                    </h5>
+                    <p class="grey-text text-lighten-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sed ipsum, distinctio
+                        doloribus modi consectetur deserunt eaque unde culpa reprehenderit, in error quaerat quos
+                        aliquid?
+                    </p>
+                </div>
+                <!-- <div class="col l4 offset-12 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a href="#!" class="grey-text text-lighten-3">Info</a></li>
+                        <li><a href="#!" class="grey-text text-lighten-3">Contacts</a></li>
+                        <li><a href="#!" class="grey-text text-lighten-3">Great</a></li>
+                        <li><a href="#!" class="grey-text text-lighten-3">Hello</a></li>
+                        <li><a href="#!" class="grey-text text-lighten-3">Url</a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                @2020 Hello world
+                <a href="" class="grey-text text-lighten-3 right">More links</a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

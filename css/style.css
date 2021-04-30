@@ -1,0 +1,42 @@
+nav {
+    background: #84d1f7; 
+}
+
+
+.carousel {
+    height: 91vh !important;
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+.cc1 {
+    background-image: url('../assets/2.jpg');
+}
+
+.cc2 {
+    background-image: url('../assets/3.jpg');
+}
+
+.cc3 {
+    background-image: url('../assets/4.jpg');
+}
+
+.cc4 {
+    background-image: url('../assets/5.jpg');
+}
+
+.cc1, .cc2, .cc3, .cc4{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parallax-container {
+    height: 30vh;
+}
+
+.modal .modal-footer {
+    text-align: center;
+}
